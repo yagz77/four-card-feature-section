@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+body {
+  background-color: hsl(0, 0%, 98%);
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  font-family: Poppins;
+}
+
+.card-shadow {
+  box-shadow: 2px 2px 2px 2px rgb(198, 205, 208);
+}
+
+.top-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.title {
+  font-weight: 200;
+  font-size: 30px;
+}
+.sub-title {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.desc-paragraph {
+  color: hsl(229, 6%, 66%);
+  text-align: center;
+  margin-top: 10px;
+}
+
+.card-wrapper {
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  width: 350px;
+  height: 200px;
+  background-color: white;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.card-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-images {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* .card-bar1 {
+  background-color: hsl(180, 62%, 55%);
+  width: 100%;
+  height: 3px;
+}
+.card-bar2 {
+  background-color: hsl(0, 78%, 62%);
+  width: 100%;
+  height: 3px;
+  border-radius: 10px;
+}
+.card-bar3 {
+  background-color: hsl(34, 97%, 64%);
+  width: 100%;
+  height: 3px;
+  border-radius: 10px;
+}
+
+.card-bar4 {
+  background-color: hsl(212, 86%, 64%);
+  width: 100%;
+  height: 3px;
+  border-radius: 10px;
+} */
+
+.card-title {
+  font-weight: 600;
+  font-size: 18px;
+}
+.card-desc {
+  color: hsl(229, 6%, 66%);
+  font-size: 12px;
+  margin-top: 10px;
+}
